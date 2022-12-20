@@ -1,2 +1,2 @@
 # Currency-converter
-Currency converter between GBP, EUR, USD and JPY.
+Currency converter for the following currencies: GBP, EUR, USD and JPY.
