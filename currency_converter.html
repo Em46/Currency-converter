@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="currency_converter.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+3:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/40201a4011.js" crossorigin="anonymous"></script>
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div id="converter">
+        <h1>Currency converter</h1>
+        
+        <i class="fa fa-thin fa-calculator"></i><br>
+    
+        <select name="country_f" id="country_f">
+            <option disabled value="select" selected>Select country currency you want to convert from</option>
+            <!--the values are the currency equivalent to 1 US Dollar.-->
+            <option id="gbp_from">GBP</option>
+            <option id="eur_from">EUR</option>
+            <option id="usd_from">USD</option>
+            <option id="jpy_from">JPY</option>
+        </select><br>
+    
+        <select name="country_t" id="country_t">
+            <option disabled value="select" selected>Select country currency you want to convert to</option>
+            <!--the values are the currency equivalent to 1 US Dollar.-->
+            <option id="gbp_to">GBP</option>
+            <option id="eur_to">EUR</option>
+            <option id="usd_to">USD</option>
+            <option id="jpy_to">JPY</option>
+        </select><br>
+
+        <input type="number" name="input_number" id="input_number" placeholder="Enter amount">
+
+        <div>
+            <input type="text" id="answer" readonly>
+        </div>
+
+        <button id="refresh">Start again!</button>
+    </div>
+
+    <script src="currency_converter.js"></script>
+</body>
+</html>

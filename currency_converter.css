@@ -1,0 +1,100 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: #296600;
+    display: block;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    margin-top: 11%;
+}
+
+select {
+    font-family: 'Source Sans 3', sans-serif;
+    border-color: #D4D4D4;
+    border-style: solid;
+    border-radius: 7px;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    box-shadow: 0px 0px 7px 0.1px #D4D4D4;
+}
+
+#answer {
+    display: block;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1em;
+    border-style: solid;
+    border-width:medium;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-right: 2em;
+    padding-left: 2em;
+    border-color: #D4D4D4;
+    width: 65%;
+    max-width: 25em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    border-radius: 7px;
+}
+
+#converter {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-color: white;
+    border-radius: 1em;
+    background-color: white;
+    width: 70%;
+    max-width: 35em;
+    height: 80%;
+}
+
+#input_number {
+    font-family: 'Source Sans 3', sans-serif;
+    border-color: #D4D4D4;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 7px;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    box-shadow: 0px 0px 7px 0.1px #D4D4D4;
+}
+
+#refresh {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #388C00;
+    border-color: #388C00;
+    border-style: solid;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+.fa {
+    font-size: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+h1, #refresh {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, select, #answer, .fa {
+    color:#656667;
+}
+
+
+
+
+
